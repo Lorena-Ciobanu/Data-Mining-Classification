@@ -13,6 +13,45 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\ID3">
+      <UniqueIdentifier>{782b118a-a640-465b-bdc9-f87da83015c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ID3">
+      <UniqueIdentifier>{0bf862e5-c1db-424e-81b5-856460cf680b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataManager">
+      <UniqueIdentifier>{3fd61f57-1001-451a-87a1-0ddd85854dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataManager">
+      <UniqueIdentifier>{ddbec223-f927-4b65-953a-8fc01971e303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data">
+      <UniqueIdentifier>{aced63a4-dce7-4aa5-9bdb-acc3b30794f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data\Enums">
+      <UniqueIdentifier>{d7ad7fd0-231f-4f86-afa1-70c571d7d062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kNN">
+      <UniqueIdentifier>{88f3f4b9-2826-43e9-81c7-f3004b6095ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kNN">
+      <UniqueIdentifier>{afd7dfb1-41ae-4961-9c93-cf680dff8edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Apriori">
+      <UniqueIdentifier>{b6dc3274-95b3-4942-9e4e-412d5ad4b650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Apriori">
+      <UniqueIdentifier>{55ff5fca-9dc9-4427-a92e-8d6d9772bd15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data">
+      <UniqueIdentifier>{00d89ad2-22bd-4642-a1c2-511fa02a9151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kMedoids">
+      <UniqueIdentifier>{9d6b6594-8cc8-4312-9fdb-5930548eec7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kMedoids">
+      <UniqueIdentifier>{b00b4864-a048-4f91-a2d6-59d4c9d3ccb5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -20,6 +59,81 @@
     </ClInclude>
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVReader.h">
+      <Filter>Header Files\DataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AgeGroup.h">
+      <Filter>Header Files\Data\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseReason.h">
+      <Filter>Header Files\Data\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Degree.h">
+      <Filter>Header Files\Data\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Gender.h">
+      <Filter>Header Files\Data\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Topic.h">
+      <Filter>Header Files\Data\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="OS.h">
+      <Filter>Header Files\Data\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgLanguage.h">
+      <Filter>Header Files\Data\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Header Files\DataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Property.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="GamesPlayed.h">
+      <Filter>Header Files\Data\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Labels.h">
+      <Filter>Header Files\Data\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Stats.h">
+      <Filter>Header Files\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ID3.h">
+      <Filter>Header Files\ID3</Filter>
+    </ClInclude>
+    <ClInclude Include="ID3Node.h">
+      <Filter>Header Files\ID3</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyIndex.h">
+      <Filter>Header Files\Data\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="kNN.h">
+      <Filter>Header Files\kNN</Filter>
+    </ClInclude>
+    <ClInclude Include="Apriori.h">
+      <Filter>Header Files\Apriori</Filter>
+    </ClInclude>
+    <ClInclude Include="ID3Property.h">
+      <Filter>Header Files\ID3</Filter>
+    </ClInclude>
+    <ClInclude Include="kNNeighbour.h">
+      <Filter>Header Files\kNN</Filter>
+    </ClInclude>
+    <ClInclude Include="AprioriItemSet.h">
+      <Filter>Header Files\Apriori</Filter>
+    </ClInclude>
+    <ClInclude Include="kMedoids.h">
+      <Filter>Header Files\kMedoids</Filter>
+    </ClInclude>
+    <ClInclude Include="kMedoidsCluster.h">
+      <Filter>Header Files\kMedoids</Filter>
+    </ClInclude>
+    <ClInclude Include="AprioriGeneration.h">
+      <Filter>Header Files\Apriori</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -29,5 +143,41 @@
     <ClCompile Include="DMIndividualAssingment.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CSVReader.cpp">
+      <Filter>Source Files\DataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Source Files\DataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ID3.cpp">
+      <Filter>Source Files\ID3</Filter>
+    </ClCompile>
+    <ClCompile Include="kNN.cpp">
+      <Filter>Source Files\kNN</Filter>
+    </ClCompile>
+    <ClCompile Include="Apriori.cpp">
+      <Filter>Source Files\Apriori</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="ID3Property.cpp">
+      <Filter>Source Files\ID3</Filter>
+    </ClCompile>
+    <ClCompile Include="AprioriItemSet.cpp">
+      <Filter>Source Files\Apriori</Filter>
+    </ClCompile>
+    <ClCompile Include="kMedoids.cpp">
+      <Filter>Source Files\kMedoids</Filter>
+    </ClCompile>
+    <ClCompile Include="kMedoidsCluster.cpp">
+      <Filter>Source Files\kMedoids</Filter>
+    </ClCompile>
+    <ClCompile Include="AprioriGeneration.cpp">
+      <Filter>Source Files\Apriori</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data Mining - Spring 2018.csv" />
   </ItemGroup>
 </Project>
